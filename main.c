@@ -317,6 +317,7 @@ void output_weight_to_us(int kilograms, double grams, int pounds, double ounces)
 	printf("%d kilograms and %.2f grams converts to\n", kilograms, grams);
 	printf("%d pounds and %.2f ounces\n", pounds, ounces);
 }
+
 void clear_keyboard_buffer(void) {
 	char c;
 	scanf("%c", &c);
